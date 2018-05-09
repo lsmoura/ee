@@ -1,0 +1,24 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "semi": "error",
+    "comma-dangle": [ "warn", "always-multiline" ],
+    "no-undef": "error",
+    "prefer-const": "warn",
+    "one-var": [ "warn", "never" ],
+    "no-unused-vars": "warn",
+    "quote-props": [ "warn", "as-needed" ],
+    "quotes": [ "warn", "single" ],
+    "radix": "error"
+  },
+  globals: {
+    "setTimeout": true,
+    "module": true
+  }
+}
